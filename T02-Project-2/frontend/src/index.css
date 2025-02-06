@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+button {
+	border-radius: 8px;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+/* Styling for when buttons in navbar are being focused by tab functionality */
+.focus-visible-style:focus-visible {
+	border-radius: 10px;
+	background-color: rgba(44, 45, 46, 0.2);
+	outline: none;
+	transform: scale(1.05);
+}

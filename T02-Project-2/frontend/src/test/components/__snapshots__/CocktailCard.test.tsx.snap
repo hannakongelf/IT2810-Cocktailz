@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CocktailCard component > should match the snapshot 1`] = `
+<DocumentFragment>
+  <article
+    aria-label="Cocktail card for Margarita"
+    class="flex flex-col p-2 overflow-hidden items-center undefined md:w-64 md:h-80 sm:w-48 sm:h-64"
+  >
+    <figure
+      aria-label="View details of Margarita"
+      class="relative rounded-lg h-46 overflow-hidden w-full aspect-w-16 aspect-h-16  cursor-pointer hover:opacity-60 "
+      data-testid="CocktailCardImage-Margarita"
+    >
+      <img
+        alt="Image of Margarita"
+        class="object-cover rounded-lg"
+        height="300"
+        src="https://example.com/margarita.jpg?w=100"
+        srcset="https://example.com/margarita.jpg?w=100 100w, https://example.com/margarita.jpg?w=200 200w, https://example.com/margarita.jpg?w=300 300w"
+        width="300"
+      />
+    </figure>
+    <h2
+      aria-label="Margarita cocktail name"
+      class="font-oswald text-center p-1 
+					text-dark-pink
+					cursor-pointer hover:text-black focus:outline-none focus-visible:opacity-80 focus-visible:scale-105 
+					text-2xl"
+      data-testid="CocktailTitle-Margarita"
+      role="button"
+      tabindex="0"
+    >
+      Margarita
+    </h2>
+    <button
+      data-testid="FavoriteButtonMock"
+    >
+      Mock Favorite Button
+    </button>
+  </article>
+</DocumentFragment>
+`;
